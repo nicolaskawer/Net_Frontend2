@@ -1,0 +1,34 @@
+{
+  "name": "net_frontend",
+  "version": "1.0.0",
+  "description": "Frontend_side",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --fix"    
+  },
+  "author": "",
+  "license": "ISC",
+
+  "dependencies": {
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "lint": "^0.8.19",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.22",
+    "react": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
