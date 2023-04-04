@@ -6,9 +6,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "mocha  tests/*.spec.js",
     "lint": "eslint src/* --color",
-    "lint-fix": "eslint src/**/*.js --fix"
+    "lint-fix": "eslint src/**/*.js --fix",
+    "test": "mocha tests/*.spec.js --color "
   },
   "author": "",
   "license": "ISC",
