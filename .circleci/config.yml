@@ -7,7 +7,7 @@ orbs:
   node: circleci/node@4.7
 
 jobs:
-  cicd-tests-front-lint:
+  cicd-front:
     executor:
       name: node/default
     steps:
@@ -21,8 +21,11 @@ jobs:
       - run:
           name: Run Linter
           command: npm run lint
+      - run:
+          name: CD- Deloy the static site
+          command: curl https://api.render.com/deploy/srv-cgm0smg7oslael66o2ng?key=nVX9Yputo3I
 
 workflows:
   front-workflow:
     jobs:
-      - cicd-tests-front-lint
+      - cicd-front
